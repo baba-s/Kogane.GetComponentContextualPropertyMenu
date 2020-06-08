@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace UniGetComponentContextualPropertyMenu.Internal
+namespace Kogane.Internal
 {
 	/// <summary>
 	/// GenericMenu 型の拡張メソッドを管理するクラス

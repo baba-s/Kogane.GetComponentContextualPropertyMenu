@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using UniGetComponentContextualPropertyMenu.Internal;
+using Kogane.Internal;
 using UnityEditor;
 using UnityEngine;
 
-namespace UniGetComponentContextualPropertyMenu
+namespace Kogane
 {
 	/// <summary>
 	/// 参照型のパラメータを右クリックした時のメニューに GetComponent を追加するエディタ拡張

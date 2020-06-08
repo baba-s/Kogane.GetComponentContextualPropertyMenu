@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace UniGetComponentContextualPropertyMenu.Internal
+namespace Kogane.Internal
 {
 	/// <summary>
 	/// GameObject 型の拡張メソッドを管理するクラス
