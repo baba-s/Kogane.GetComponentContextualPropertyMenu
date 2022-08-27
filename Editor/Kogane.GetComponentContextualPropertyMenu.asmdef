@@ -1,5 +1,5 @@
 {
-    "name": "UniGetComponentContextualPropertyMenu",
+    "name": "Kogane.GetComponentContextualPropertyMenu",
     "references": [],
     "includePlatforms": [
         "Editor"

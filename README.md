@@ -1,4 +1,4 @@
-# Uni Get Component Contextual Property Menu
+# Kogane Get Component Contextual Property Menu
 
 参照型のパラメータを右クリックした時のメニューに GetComponent を追加するエディタ拡張
 
