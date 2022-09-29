@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using Kogane.Internal;
 using UnityEditor;
 using UnityEngine;
 
-namespace Kogane
+namespace Kogane.Internal
 {
     /// <summary>
     /// 参照型のパラメータを右クリックした時のメニューに GetComponent を追加するエディタ拡張
@@ -20,6 +19,7 @@ namespace Kogane
         /// </summary>
         static GetComponentContextualPropertyMenu()
         {
+            EditorApplication.contextualPropertyMenu -= OnMenu;
             EditorApplication.contextualPropertyMenu += OnMenu;
         }
 
