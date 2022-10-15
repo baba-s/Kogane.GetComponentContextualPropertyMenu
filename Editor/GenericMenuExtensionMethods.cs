@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEditor;
-using UnityEngine;
 
 namespace Kogane.Internal
 {
@@ -22,7 +21,7 @@ namespace Kogane.Internal
             Action           func
         )
         {
-            self.AddItem( new GUIContent( text ), false, () => func() );
+            self.AddItem( new( text ), false, () => func() );
         }
     }
 }
